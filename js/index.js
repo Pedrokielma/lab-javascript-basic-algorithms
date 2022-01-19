@@ -17,12 +17,12 @@ console.log(`Wow, you both have equally long names, ${hacker1.length} characters
 
 
 // Iteration 3: Loops
-let hacker;
+// let uppertCaseName = "";
 
-for (let i = 0; i < hacker1.length; i++){
-    hacker = hacker + " " + hacker1[i].toUpperCase()
-}
-console.log(hacker)
+// for (let i = 0; i < hacker1.length; i++){
+//     uppertCaseName = uppertCaseName + " " + hacker1[i].toUpperCase()
+// }
+// console.log(uppertCaseName)
 
 
 for (let i = hacker1.length; i >= 0; i--){
@@ -36,12 +36,12 @@ if(hacker1.localeCompare(hacker1)== 1){
 }else {console.log("What?! You both have the same name?")}
 
 
-//Bonus 1
+// //Bonus 1
 
-let paragrph = "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature"
-let numberOfWords = paragrph.length
-let timesOfEt =  paragrph.split("et").length - 1;
-console.log(timesOfEt)
+// let paragrph = "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature"
+// let numberOfWords = paragrph.length
+// let timesOfEt =  paragrph.split("et").length - 1;
+// console.log(timesOfEt)
 
 //bonus 2
 // function palindrome(str) {
@@ -57,11 +57,11 @@ console.log(timesOfEt)
 
 //     return true;
 // }
-let len = paragrph.length
-var mid = Math.floor(len/2);
-for ( var i = 0; i < mid; i++ ) {
-            if (str[i] !== str[len - 1 - i]) {
+// let len = paragrph.length
+// var mid = Math.floor(len/2);
+// for ( var i = 0; i < mid; i++ ) {
+//             if (str[i] !== str[len - 1 - i]) {
                 
-            }
-        }
-        return true;
+//             }
+//         }
+//         return true;
