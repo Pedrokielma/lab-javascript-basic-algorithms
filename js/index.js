@@ -1,5 +1,5 @@
 // Iteration 1: Names and Input
-let hacker1 = "Pedro"
+let hacker1 = "Pedro";
 let hacker2 = "Hollie";
 console.log(hacker1)
 console.log(`The navigator's name is ${hacker2}`)
@@ -17,23 +17,31 @@ console.log(`Wow, you both have equally long names, ${hacker1.length} characters
 
 
 // Iteration 3: Loops
-// let uppertCaseName = "";
 
-// for (let i = 0; i < hacker1.length; i++){
-//     uppertCaseName = uppertCaseName + " " + hacker1[i].toUpperCase()
-// }
-// console.log(uppertCaseName)
+let uppertCaseName = "";
 
-
-for (let i = hacker1.length; i >= 0; i--){
-console.log(hacker1[i]);
+for (let i = 0; i < hacker1.length; i++){
+    uppertCaseName = uppertCaseName + " " + hacker1[i].toUpperCase()
 }
+console.log(uppertCaseName)
 
-if(hacker1.localeCompare(hacker1)== 1){
+// 3.2
+
+let reverseName = "";
+for (let i = hacker1.length -1; i >= 0; i--){
+    reverseName += hacker1[i]
+
+}
+console.log(reverseName);
+
+//3.3
+if(hacker1.localeCompare(hacker2)=== -1){
     console.log("The driver's name goes first.")
-}else if(hacker1.localeCompare(hacker1)== -1){
+}else if(hacker2.localeCompare(hacker1)=== 1){
     console.log("Yo, the navigator goes first definitely.")
 }else {console.log("What?! You both have the same name?")}
+
+console.log(hacker2.localeCompare(hacker1)=== -1)
 
 
 // //Bonus 1
